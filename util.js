@@ -1,3 +1,9 @@
+
+/**
+ * 複製文字
+ * 
+ * @param {string} content 文字內容
+ */
 export const copy = content => {
   const copyElement = document.createElement('textarea')
   copyElement.setAttribute('id', 'copyElement')
